@@ -1,0 +1,13 @@
+.card {
+    background-color: #011627;
+    border-radius: 10px;
+    border-color: aquamarine;
+    border-width: 1px;
+    box-shadow: 0px 0px 15px 5px rgba(34, 62, 166, 0.264);
+    margin: 20px;
+    display: flex;
+    flex-direction: column; 
+    min-height: 90vh; 
+    justify-content: space-between;
+
+  }

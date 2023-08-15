@@ -1,0 +1,63 @@
+.contact {
+  padding: 5rem;
+  background-color: #011627;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+}
+
+.contactContent {
+  display: flex;
+  flex-direction: row; 
+  width: 100%;
+}
+
+.contactInfo {
+  width: 50%; 
+  margin-left: 2rem;
+}
+
+.codeContainer {
+  background-color: #292c36;
+  padding: 10px;
+  border-radius: 5px;
+  overflow:visible;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.codeLine {
+  display:flow-root;
+  align-items:flex-end;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactList li {
+  margin-bottom: 10px;
+}
+
+.contactList li strong {
+  color: #66d9ef;
+}
+
+.contactList a {
+  color: #69a5e7;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+pre {
+  background-color: #292c36;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: auto;
+  max-width: 100%;
+}

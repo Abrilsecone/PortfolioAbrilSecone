@@ -1,0 +1,45 @@
+/* Header.module.css */
+
+.header {
+  background-color: #011627;
+  border-bottom: 1px solid #010C15;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px 5px 0 0;
+  font-family: 'Courier New', monospace;
+}
+
+
+.logo a {
+  	color: "#607B96";
+  	font-size: 16px;
+  	font-style: "normal";
+  	font-weight: 450;
+  	line-height: "normal";
+
+}
+
+.navbar a {
+  display: inline-block;
+  margin-right: 10px; 
+  position: relative;
+}
+
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a:hover {
+  color: #66d9ef;
+}

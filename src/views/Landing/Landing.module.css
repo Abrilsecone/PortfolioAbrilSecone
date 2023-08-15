@@ -1,0 +1,47 @@
+.landing {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding: 2rem;
+}
+
+.leftContent {
+  flex: 1;
+  padding: 2rem;
+}
+
+.rightContent {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+
+.introText {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.githubLink {
+  font-size: 14px;
+  color: #69a5e7;
+  text-decoration: none;
+}
+
+.githubLink:hover {
+  color: #66d9ef;
+}

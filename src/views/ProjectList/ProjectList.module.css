@@ -1,0 +1,44 @@
+.projectList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftContent {
+  flex: 1;
+  padding: 20px;
+}
+
+.rightContent {
+  flex: 1;
+  padding: 2.3rem;
+  background-color: #0d202f;
+  border-left: 1px solid #ccc;
+}
+
+.projects {
+  margin: 2rem;
+}
+
+.project {
+  margin: 1rem;
+  margin-top: 1rem;
+
+}
+
+.technologies {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.techIcon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.techIcon span {
+  margin-left: 1rem;
+}
+
