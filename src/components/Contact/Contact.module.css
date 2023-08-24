@@ -1,9 +1,22 @@
 .contact {
-  padding: 5rem;
+  padding: 1rem;
   background-color: #011627;
   display: flex; 
   justify-content: space-between; 
   align-items: flex-start; 
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactImage {
+  max-width: 30rem;
+  max-height: 30rem;
+  border-radius: 5px;
+  border-bottom: 0px solid #004e8d00;
 }
 
 .contactContent {
@@ -13,8 +26,12 @@
 }
 
 .contactInfo {
-  width: 50%; 
-  margin-left: 2rem;
+  flex: .9;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  flex-direction: column;
+  align-items: center;
 }
 
 .codeContainer {

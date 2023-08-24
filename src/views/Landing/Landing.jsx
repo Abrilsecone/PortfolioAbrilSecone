@@ -11,8 +11,8 @@ const Landing = () => {
         <p>Hola a todos. Yo soy</p>
         <h1>Abril Secone</h1>
         <h2>&gt; FullStack developer </h2>
-        <p>// completa el juego para continuar</p>
-        <p>// podes verlo en mi GitHub</p>
+        <p> completa el juego para continuar</p>
+        <p> podes verlo en mi GitHub</p>
 
         <p>const githubLink = </p><GitHubLink link={githubLink} text="https://github.com/abrilsecone" />
       </div>

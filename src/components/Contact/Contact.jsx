@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from './Contact.module.css';
+import contactImage from '../../asset/contact.png';
 
 const Contact = () => {
-  const codeBlock = `
+  /* const codeBlock = `
     const button = document.querySelector('#sendBtn');
     
     const message = {
@@ -22,13 +23,13 @@ const Contact = () => {
       <span className={styles.lineNumber}>{index + 1}</span>
       {line}
     </div>
-  ));
+  )); */
 
   return (
     <div className={styles.contact}>
       <div className={styles.contactContent}>
         <div className={styles.contactInfo}>
-          <h2>Contacto</h2>
+          <h1>Contacto</h1>
           <p>Puedes contactarme a través de los siguientes medios:</p>
           <ul className={styles.contactList}>
             <li>
@@ -44,7 +45,9 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-        <div className={styles.codeContainer}>{codeLines}</div>
+        <div className={styles.imageContainer}>
+          <img src={contactImage} alt="Imagen de contacto" className={styles.contactImage} />
+        </div>
       </div>
     </div>
   );

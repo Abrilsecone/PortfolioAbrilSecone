@@ -5,31 +5,32 @@
 
 .leftContent {
   flex: 1;
-  padding: 20px;
 }
 
 .rightContent {
-  flex: 1;
-  padding: 2.3rem;
+  flex: .85;
+  padding-top: 2.3rem;
+  padding-left: 2.3rem;
   background-color: #0d202f;
   border-left: 1px solid #ccc;
 }
 
 .projects {
   margin: 2rem;
+  
 }
 
 .project {
   margin: 1rem;
   margin-top: 1rem;
-
+  margin: 0.2rem;
 }
 
 .technologies {
-  margin-top: 5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    margin-top: 4rem;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
 }
 
 .techIcon {

@@ -6,8 +6,16 @@ import { faHtml5, faCss3, faJs, faNodeJs, faReact } from '@fortawesome/free-bran
 
 const ProjectList = () => {
   const projects = [
-    { title: 'Proyecto 1', description: 'Descripción del proyecto 1' },
-    { title: 'Proyecto 2', description: 'Descripción del proyecto 2' },
+    {
+      title: 'Canineconnect',
+      description: 'Un sitio web dinámico, consumiendo API\'s externas con CRUD completo, filtros y búsquedas.',
+      technologies: ['JavaScript', 'React', 'Sequelize', 'HTML', 'CSS', 'NodeJS', 'Redux'],
+    },
+    {
+      title: 'Trends App',
+      description: 'Contribuí al desarrollo de aplicación web full stack en una startup en crecimiento. Trabajo colaborativo con metodologías ágiles. Colaboré en la implementación de interfaces de usuario y características Frontend.',
+      technologies: ['JavaScript', 'React', 'Sequelize', 'HTML', 'CSS', 'NodeJS', 'Redux'],
+    },
   ];
 
   const technologies = [
@@ -29,7 +37,7 @@ const ProjectList = () => {
         </div>
       </div>
       <div className={styles.rightContent}>
-        <h1>Tecnologías FullStack</h1>
+        <h1 class="h1_Proy">Tecnologías FullStack</h1>
         <div className={styles.technologies}>
           {technologies.map((tech, index) => (
             <div key={index} className={styles.techIcon}>
